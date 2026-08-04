@@ -2,7 +2,7 @@
 
 # Circular Queue
 
-1] Initialize Queue
+1] Initialize Queue<br>
 A] queueInit()
 1. Start.
 2. Allocate memory for the queue of the given size.
@@ -11,7 +11,7 @@ A] queueInit()
 5. Set rear = -1.
 6. Stop.
 
-2] Enqueue (Insert)
+2] Enqueue (Insert)<br>
 B] enqueue()
 1. Start.
 2. Check whether the queue is full.
@@ -20,7 +20,7 @@ B] enqueue()
 5. Insert the new element at arr[rear].
 6. Stop.
 
-3] Dequeue (Delete)
+3] Dequeue (Delete)<br>
 C] dequeue()
 1. Start.
 2. Check whether the queue is empty.
@@ -33,7 +33,7 @@ Set rear = -1.
 7. Return the deleted element.
 8. Stop.
 
-4] Peek
+4] Peek<br>
 D] peek()
 1. Start.
 2. Check whether the queue is empty.
@@ -41,14 +41,14 @@ D] peek()
 4. Return the element at (front + 1) % size.
 5. Stop.
 
-5] Check Queue is Empty
+5] Check Queue is Empty<br>
 E] isEmpty()
 1. Start.
 2. If front == -1 and rear == -1, return True.
 3. Otherwise, return False.
 4. Stop.
 
-6] Check Queue is Full
+6] Check Queue is Full<br>
 F] isFull()
 1. Start.
 2. If front == -1 and rear == size - 1, return True.
